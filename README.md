@@ -33,7 +33,7 @@ You can notice that the moose on the third picture has a shadow artifact, that's
 ![img6](https://github.com/krivmi/StencilShadows/assets/35463969/8d0de8a4-bfca-4c0f-b838-c48fdd355dcf)
 
 # References
-To code this project I had to watch/read many sources. Here are some important ones that really helped me.
+To code this whole project, I had to watch and read many sources. Here are some important ones that really helped me:
 1. Understanding of the stencil buffer - https://learnopengl.com/Advanced-OpenGL/Stencil-testing
 2. Creating silhouettes with the geometry shader - https://ogldev.org/www/tutorial39/tutorial39.html
 3. Stencil Shadow Volume by OGL - https://ogldev.org/www/tutorial40/tutorial40.html
