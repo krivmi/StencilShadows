@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\opengl">
+      <UniqueIdentifier>{5a165506-b72a-40d9-bc90-b7051aeddd8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\opengl">
+      <UniqueIdentifier>{dad7b79e-3230-46d3-9918-ff6e132b16b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glad">
+      <UniqueIdentifier>{c161e05c-8c04-4e6c-84b6-dd508dfd6bb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorials.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glutils.h">
+      <Filter>Header Files\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rasterizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pg2_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorials.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glutils.cpp">
+      <Filter>Source Files\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libs\glad\src\glad.cpp">
+      <Filter>Source Files\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rasterizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basic_shader.vert">
+      <Filter>Source Files\opengl</Filter>
+    </None>
+    <None Include="basic_shader.frag">
+      <Filter>Source Files\opengl</Filter>
+    </None>
+    <None Include="shadow_shader.vert">
+      <Filter>Source Files\opengl</Filter>
+    </None>
+    <None Include="shadow_shader.frag">
+      <Filter>Source Files\opengl</Filter>
+    </None>
+    <None Include="env_shader.frag">
+      <Filter>Source Files\opengl</Filter>
+    </None>
+    <None Include="env_shader.vert">
+      <Filter>Source Files\opengl</Filter>
+    </None>
+    <None Include="stencil_shader.frag">
+      <Filter>Source Files\opengl</Filter>
+    </None>
+    <None Include="stencil_shader.vert">
+      <Filter>Source Files\opengl</Filter>
+    </None>
+    <None Include="stencil_shader.geom">
+      <Filter>Source Files\opengl</Filter>
+    </None>
+  </ItemGroup>
+</Project>
