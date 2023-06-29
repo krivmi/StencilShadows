@@ -20,17 +20,17 @@ You can notice that the moose on the third picture has a shadow artifact, that's
 
 # Screenshots
 ## Final result 
-![img4](https://github.com/krivmi/StencilShadows/assets/35463969/682f4177-59b4-4ad4-aadd-ef366d9554bc)
-![img1](https://github.com/krivmi/StencilShadows/assets/35463969/e18f7aea-a8e2-41e5-905b-8e407c38f68a)
+![img4](https://github.com/krivmi/StencilShadows/assets/35463969/65c7f899-2def-44e0-9c40-82548eb8b7e6)
+![img1](https://github.com/krivmi/StencilShadows/assets/35463969/6041fe4e-7d59-43f1-8ed1-86760c5346e3)
 
 ## Colored shadow volumes without caps:
-![shadow_volume](https://github.com/krivmi/StencilShadows/assets/35463969/284e0a57-63c4-4cd8-865a-2a71e231e7dd)
+![shadow_volume](https://github.com/krivmi/StencilShadows/assets/35463969/ddc31a7a-af27-4bca-ad10-4771d2ce35ab)
 
 ## Extruded silhouettes to infinity:
-![silhuettes_in_infinity](https://github.com/krivmi/StencilShadows/assets/35463969/cf011b8a-cc4f-4399-b5da-406095078160)
+![silhuettes_in_infinity](https://github.com/krivmi/StencilShadows/assets/35463969/bf780bc2-be90-4bc8-945b-1828bb25173b)
 
 ## It does not work for all types of meshes:
-![img6](https://github.com/krivmi/StencilShadows/assets/35463969/8d0de8a4-bfca-4c0f-b838-c48fdd355dcf)
+![img6](https://github.com/krivmi/StencilShadows/assets/35463969/fd204cff-0092-4421-81c8-102120dc58ae)
 
 # References
 To code this whole project, I had to watch and read many sources. Here are some important ones that really helped me:
