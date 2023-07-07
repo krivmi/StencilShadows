@@ -16,7 +16,8 @@ Mesh conditions to support functionnal stencil shadows:
 4. It must look locally like the plane everywhere.
 5. It must be able to find the silhouette edges of every shadow caster and build the corresponding shadow volume.
 
-You can notice that the moose on the third picture has a shadow artifact, that's because...
+<!---You can notice that the moose on the third picture has a shadow artifact, that's because...--->
+
 
 # Screenshots
 ## Final result 
@@ -28,9 +29,9 @@ You can notice that the moose on the third picture has a shadow artifact, that's
 
 ## Extruded silhouettes to infinity:
 ![silhuettes_in_infinity](https://github.com/krivmi/StencilShadows/assets/35463969/bf780bc2-be90-4bc8-945b-1828bb25173b)
-
+<!--
 ## It does not work for all types of meshes:
-![img6](https://github.com/krivmi/StencilShadows/assets/35463969/fd204cff-0092-4421-81c8-102120dc58ae)
+![img6](https://github.com/krivmi/StencilShadows/assets/35463969/fd204cff-0092-4421-81c8-102120dc58ae)--->
 
 # References
 To code this whole project, I had to watch and read many sources. Here are some important ones that really helped me:
