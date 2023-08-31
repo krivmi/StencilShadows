@@ -21,6 +21,7 @@ Mesh conditions to support functionnal stencil shadows:
 
 # Screenshots
 ## Final result 
+![bear](https://github.com/krivmi/StencilShadows/assets/35463969/23318bc1-6030-43f2-b6d7-73fb38b7f929)
 ![img4](https://github.com/krivmi/StencilShadows/assets/35463969/65c7f899-2def-44e0-9c40-82548eb8b7e6)
 ![img1](https://github.com/krivmi/StencilShadows/assets/35463969/6041fe4e-7d59-43f1-8ed1-86760c5346e3)
 
