@@ -16,9 +16,10 @@ int tutorial_1( const int width, const int height )
 	rasterizer.initOpenGl(width, height);
 
 	rasterizer.loadMesh("../../../data/geosphere.obj", "map");
-	rasterizer.loadMesh_triangles("../../../data/shadow_volume_test.obj");
+	//rasterizer.loadMesh_triangles("../../../data/shadow_volume_test.obj");
 	//rasterizer.loadMesh_triangles("../../../data/deer2.obj");
 	//rasterizer.loadMesh_triangles("../../../data/test.obj");
+	rasterizer.loadMesh_triangles("../../../data/panda_test.obj");
 	rasterizer.initShaders();
 
 	rasterizer.initCamera(width, height, deg2rad(45.0), Vector3(0.374, 7.928, 5.02), Vector3(0, 0, 0)); // (x, z, y)
@@ -28,7 +29,9 @@ int tutorial_1( const int width, const int height )
 	rasterizer.initSurfaceEnvMap();
 	rasterizer.initSurfaceTriangles();
 
-	rasterizer.InitEnvMap("../../../data/pref_env_2048.exr");
+	//rasterizer.InitEnvMap("../../../data/pref_env_2048.exr");
+	//rasterizer.InitEnvMap("../../../data/pref_env_2048_nature.exr"); 
+	rasterizer.InitEnvMap("../../../data/hdr_nature_map.exr"); 
 	rasterizer.SetEnvMap();
 
 	rasterizer.mainLoop();
